@@ -1,0 +1,59 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Redressed, sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+body {
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+.grid {
+  max-width: 100%;
+  border-color: yellow;
+ /* border: 6px solid green; */
+  margin-top: 70px;
+  padding: 10px;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.first-line, .second-line, .third-line {
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr 1fr 5fr;
+  grid-gap: 2px;
+}
+
+button {
+  width: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: -3px;
+  background: linear-gradient(to right, #215c97, #1b7466);
+}
+
+.vline {
+  width: 2px;
+  height: 70px;
+  background-color: black;
+}
+
+.hline {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+body {
+  background: linear-gradient(to right, #215c97, #1b7466);
+}
+
+.title {
+  position: relative;
+  margin-top: 200px;
+}
