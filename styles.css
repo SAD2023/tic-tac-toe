@@ -34,7 +34,7 @@ button {
   margin-bottom: 5px;
   margin-top: 5px;
   margin-left: -3px;
-  background: linear-gradient(to right, #215c97, #1b7466);
+  background: linear-gradient(to right, #e0e9f1, #e6eceb);
 }
 
 .vline {
@@ -50,10 +50,23 @@ button {
 }
 
 body {
-  background: linear-gradient(to right, #215c97, #1b7466);
+   /* background: linear-gradient(to right, #215c97, #1b7466); */
+   /* background: linear-gradient(to right, #d6482f, #be0909); */
+   background: wheat
 }
 
 .title {
   position: relative;
-  margin-top: 200px;
+  margin-top: 150px;
+  justify-content: center;
+  align-content: center;
+}
+
+#end-button {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 43.5%;
+  width: 200px;
+  justify-content: center;
+  align-content: center;
 }
